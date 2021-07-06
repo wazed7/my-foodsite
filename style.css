@@ -1,5 +1,41 @@
+*body{
+    margin: 0%;
+}
 body{
+
     font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    padding: 20px 40px;
+    display: flex;
+    background-color: orange;
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+}
+.icon img{
+    width: 30%;
+}
+.homebar{
+    margin-left: auto;
+}
+.homebar ul li{
+    float: left;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.homebar ul li a{
+    margin: 0%;
+    padding: 18px 16px 21px 16px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
 }
 h1{
     font-size: 50px;
@@ -7,8 +43,16 @@ h1{
 }
 section{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 140px;
 
+}
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.likes{
+    display: flex;
+    flex-wrap: wrap;
 }
 .skip{
     color: orange;
@@ -18,7 +62,7 @@ section{
     margin: 2%;
 }
 .first img{
-    width: 70%;
+    width: 60%;
     padding-top: 2%;
 
 }
@@ -36,7 +80,7 @@ section{
 
 }
 #aboutme{
-    width: 50%;
+    width: 80%;
     padding-left: 15%;
 }
 #par{
@@ -46,7 +90,62 @@ section{
     margin-bottom: 5%;
 }
 .sec{
-    background-image: url(images/7.png);
+    width: 100%;
+    background-image: url(images/Frame\ 59.jpg);
     background-repeat: no-repeat;
 }
-
+.my{
+    text-align: center;
+    font-weight: 700;
+}
+.my1{
+    text-align: center;
+}
+.header{
+    width: 100%;
+}
+.pdiv{
+    width: 100%;
+    display: flex;
+}
+.div1{
+    width: 23%;
+    box-shadow: 10px 10px 10px gray;
+    margin: 3%;
+    border-radius: 20px;
+    padding: 30px;
+}
+.div1 img{
+    width: 100%;
+    height: 45%;
+}
+.social{
+    width: 33.3%;
+    text-align: center;
+    margin-top: 0px;
+    margin: 0px;
+}
+.likes{
+    width: 90%;
+    margin-left: 60px;
+    font-size: 25px;
+    box-shadow: 2px 2px 15px grey;
+    border-radius: 20px;
+    
+}
+footer{
+    text-align: center;
+    padding: 1%;
+    background: black;
+}
+.food{
+    color: red;
+    font-weight: 800;
+    
+}
+.food1{
+    color: silver;
+}
+.para{
+    color: silver;
+}
